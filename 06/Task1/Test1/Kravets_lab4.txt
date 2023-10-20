@@ -1,0 +1,249 @@
+% language_school(name,[course(title, level, teacher(name, surname, salary), [student(name, surname, level)])])
+
+language_school('JustSchool', [
+                         course('Beginner + Elementary', 'A1',  
+                                teacher('Olesia', 'Konanets', 9000),
+                                [
+                                student('Maria', 'Kobyk', 'A1'),
+                                student('Bolodymyr', 'Makovetskyi', 'A0'),
+                                student('Anastasia', 'Bryndas', 'A0'),
+                                student('Danylo', 'Hirniak', 'A1')
+                                ]),
+                           
+                          course('Pre-Intermediate', 'A2',  
+                                teacher('Olesia', 'Konanets', 12000),
+                                [
+                                student('Orest', 'Makovetskyi', 'A2'),
+                                student('Roman', 'Nakonechniy', 'A2'),
+                                student('Olena', 'Liadryk', 'B1'),
+                                student('Sofia', 'Fedyk', 'A2'),
+                                student('Dmytro', 'Kuchar', 'B1')
+                                ]),
+                           
+                           course('Intermediate', 'B1',  
+                                teacher('Ivan', 'Romaniv', 15000),
+                                [
+                                student('Maria', 'Kobziak', 'B1'),
+                                student('Valeria', 'Maik', 'B2'),
+                                student('Semen', 'Stakhiv', 'B1')
+                                ]),
+                           
+                          course('Upper-Intermediate', 'B2',  
+                                teacher('Ivan', 'Romaniv', 17000),
+                                [
+                                student('Viktoria', 'Romanchuk', 'B2'),
+                                student('Yulia', 'Valchak', 'B2'),
+                                student('Solomia', 'Pereima', 'B2'),
+                                student('Ivan', 'Fulmes', 'B1')
+                                ]),
+
+                          course('Speaking club', 'B1',  
+                                teacher('Ivan', 'Romaniv', 18000),
+                                [
+                                student('Maria', 'Kobziak', 'B1'),
+                                student('Valeria', 'Maik', 'B2'),
+                                student('Solomia', 'Pereima', 'B2'),
+                                student('Ivan', 'Fulmes', 'B1'),
+                                student('Semen', 'Stakhiv', 'B1')
+                                ])
+                         ]).
+
+language_school('EnglishDom', [
+                         course('Upper-Intermediate', 'B2',  
+                                teacher('Olha', 'Fulmes', 16000),
+                                [
+                                student('Taras', 'Chornyi', 'B2'),
+                                student('Oksana', 'Kovalenko', 'C1'),
+                                student('Marta', 'Fil', 'B1'),
+                                student('Veronika', 'Chereba', 'B2')
+                                ]),
+                           
+                           course('Advanced', 'C1',  
+                                teacher('Iryna', 'Lahuniak', 18000),
+                                [
+                                student('Anastasia', 'Petryshyn', 'C1'),
+                                student('Roman', 'Kmyta', 'B2'),
+                                student('Mykola', 'Siryi', 'C1')
+                                ]),
+
+                           course('Speaking club', 'B2',  
+                                teacher('Iryna', 'Lahuniak', 21000),
+                                [
+                                student('Anastasia', 'Petryshyn', 'C1'),
+                                student('Roman', 'Kmyta', 'B2'),
+                                student('Mykola', 'Siryi', 'C1'),
+                                student('Marta', 'Chorna', 'B2'),
+                                student('Oksana', 'Kovalenko', 'C1'),
+                                student('Taras', 'Chornyi', 'B2'),
+                                student('Veronika', 'Chereba', 'B2')
+                                ])
+                         ]).
+
+language_school('Green Forest', [
+                          course('Beginner + Elementar', 'A1',
+                                teacher('Natalia', 'Luhovska', 8000),
+                                [
+                                student('Marta', 'Krishevska', 'A1'),
+                                student('Bohdan', 'Hnidets', 'A0'),
+                                student('Taras', 'Hnidets', 'A1')
+                                ]),
+                                            
+                          course('Pre-Intermediate', 'A2',
+                                  teacher('Svitlana', 'Loza', 10000),
+                                  [
+                                  student('Oksana', 'Sira', 'A1'),
+                                  student('Vitaliy', 'Kolos', 'A1'),
+                                  student('Ihor', 'Kulyk', 'A0')
+                                  ]),              
+                                                       
+                          course('Speaking club', 'A2',  
+                                teacher('Svitlana', 'Loza', 11000),
+                                [
+                                student('Oksana', 'Sira', 'A1'),
+                                student('Pavlo', 'Vozniak', 'A2'),
+                                student('Kateryna', 'Kit', 'B1'),
+                                student('Vitaliy', 'Kolos', 'A1'),
+                                student('Serhiy', 'Lahuniak', 'A2'),
+                                student('Ostap', 'Rodych', 'B1')
+                                ])  
+                         ]).
+
+
+
+in(X,[X]):-!.
+in(X,[_|T]):- in(X,T).
+in(X,[X|_]).
+
+% ----------------------------------------------------------------
+%							! Додано !
+
+
+
+% ----------------------------------------------------------------
+
+
+% 1 Список всіх курсів певної школи
+course_in_school(Course, SchoolName):- language_school(SchoolName, Courses),
+							in(course(Course, _, _, _), Courses).
+
+courses_of_school(SchoolName, C):- findall(A, course_in_school(A, SchoolName), C).
+% courses_of_school('JustSchool', Courses).
+
+
+% 2 Список всіх шкіл
+schools(All_schools):- findall(A, language_school(A, _), All_schools).
+% schools(All_schools).
+
+
+% 3 Список усіх учнів рівня Intermediate (B1, B2)
+contains(Head, [Head|_]).
+contains(Head, [_|Tail]) :- contains(Head, Tail).
+
+distinct([], [], _).
+distinct([Head|Tail], [Head|Res], List) :- 
+    not(contains(Head, List)), 
+    distinct(Tail, Res, [Head|List]).
+distinct([Head|Tail], Res, List) :- 
+    contains(Head, List), 
+    distinct(Tail, Res, List).
+
+set(List, Set) :- distinct(List, Set, []).
+
+level_filter(student_school(Student, SchoolName)):- language_school(SchoolName, Courses),
+    	in(course(_, _, _, Students), Courses),
+    	in(student(FirstName, Surname, Level), Students), 
+        atom_concat(FirstName, ' ', FirstNameB),
+        atom_concat(FirstNameB, Surname, Student),
+    	(Level == 'B1' ; Level == 'B2').
+
+intermediate_level_students(Intermediate):- findall(A, level_filter(A), C), set(C, Intermediate).  
+% intermediate_level_students(Intermediate).
+
+
+% 4 Список усіх курсів рівня Basic (A1, A2)
+course_level_filter(course_school(Course, SchoolName)):- language_school(SchoolName, Courses),
+    	in(course(Course, Level, _, _), Courses),
+    	(Level == 'A1';Level == 'A2' ; Level == 'A0').
+
+basic_level_cources(Basic):- findall(A, course_level_filter(A), Basic).
+% basic_level_cources(Basic).
+
+
+% 5 Найпопулярніший курс (екстремальними значеннями)
+array_length([],0).
+array_length([_|T], N):- array_length(T, M), N is M + 1.
+
+the_most_popular_cource((Course, School)):- language_school(School, Cources),
+    	in(course(Course, _, _, Students), Cources),
+		array_length(Students, L),
+		\+ (language_school(_, Cources2),
+		in(course(_, _, _, Students2), Cources2),
+		array_length(Students2, L2), L2 > L).
+% the_most_popular_cource((Course, School)).
+
+
+% 6 Зарплата викладача
+elements_sum([], 0).
+elements_sum([Head|Tail], Sum) :-
+    elements_sum(Tail, Temp_sum),
+    Sum is Head + Temp_sum.
+
+get_teacher_salary(Surname, Salary) :- language_school(_, Cources),
+    findall(TeacherSalary, (
+        in(course(_, _, teacher(_, Surname, TeacherSalary), _), Cources),
+        number(TeacherSalary) % Ensure TeacherSalary is a number
+    ), Salaries),
+    elements_sum(Salaries, Salary).
+
+get_teacher_salaries(Surname, Sum) :- get_teacher_salary(Surname, Sum).
+% get_teacher_salaries('Romaniv', Sum).
+
+
+% 7 Кількість студентів курсу
+cource_students_amount(Course, Amount):- language_school(_, Cources),
+    	in(course(Course, _, _, Students), Cources),
+		array_length(Students, Amount).
+% cource_students_amount('Intermediate', Amount).
+
+
+% 8 Курси посортовані за кількістю студентів
+
+% вставка елемента у впорядкований список.
+insert_in_sorted(El, [], [El|[]]).
+insert_in_sorted(El, [Head|Tail], [El, Head|Tail]):- bigger(El, Head), !.
+insert_in_sorted(El, [Head|Tail], [Head |LongerTail]):- insert_in_sorted(El, Tail, LongerTail).
+
+% впорядкування елементів числового списку.
+mysort([],[]).
+mysort([Head|[]], [Head|[]]).
+mysort([Head|Tail], List):- 
+    mysort(Tail, SortedT), 
+    insert_in_sorted(Head, SortedT, List).
+    
+courses(Course, Amount):- language_school(_, Cources), 
+    in(course(Course, _, _, Students), Cources), 
+    array_length(Students, Amount).
+  
+bigger((_, Amount), (_, Amount2)):- Amount < Amount2.
+all_courses(SortedL):- findall((Course, Amount), courses(Course, Amount), L),
+    mysort(L, SortedL).
+% all_courses(SortedL).
+
+
+% 9 Вивід назв курсів з кількістю студентів більшою ніж у 'Advanced')
+finish('Advanced').
+write_top(Course):- all_courses(SortedL), 
+    in((Course, Amount), SortedL),
+    write((Course, Amount)), nl, finish(Course).
+% write_top(Course).
+
+
+% 10 Кількість студентів у школі
+students_in_courses([], 0).
+students_in_courses([course(_,_,_,Students)|Tail], Res) :-
+	students_in_courses(Tail, Rs1),
+    array_length(Students, Rs2),
+	Res is Rs1 + Rs2.
+
+students_in_school(A, Res):- language_school(A, Courses), students_in_courses(Courses, Res).
+% students_in_school('EnglishDom', TotalStudents).

@@ -1,0 +1,65 @@
+%  y = f(x)
+%  f( X, Y)
+
+f( X, 0) :- X =< 0.
+f( X, Y) :- 0 < X, X < 2, Y is 2*X.
+f( X, 4) :- X >= 2.
+
+%?- f(-5,A),f(1.5,B),f(3,C),write([A,B,C]).
+%?- f(-10,Y), Y < 0.
+
+% green section
+f1( X, 0) :- X =< 0, !.
+f1( X, Y) :- 0 < X, X < 2, Y is 2*X, !.
+f1( X, 4) :- X >= 2.
+
+%?- f1(-5,A),f1(1.5,B),f1(3,C),write([A,B,C]).
+%?- f1(-10,Y), Y < 0.
+
+% red section
+f2( X, 0) :- X =< 0, !.
+f2( X, Y) :- X < 2, Y is 2*X, !.
+f2( X, 4).
+%?- f2(-5,A),f2(1.5,B),f2(3,C),write([A,B,C]).
+%?- f2(-10,Y), Y < 0.
+
+
+
+
+animal(cat).
+animal(dog).
+animal(snake).
+animal(spider).
+animal(horse).
+
+% Mary likes animals except snake
+
+% likes(mary, X)
+
+likes(mary, snake):- !, fail.
+likes(mary, X):-animal(X).
+%?- likes(mary, cow).
+
+
+not(X) :- X, !, fail; true.
+
+
+% count occurences of X in List
+% count(X,L,K)
+count(_,[],0).
+count(X,[X|T],K):- !, count(X,T,N), K is N+1.
+count(X,[_|T],K):-count(X,T,K).
+%?- count(a,[a,a,b,b,a],K),write(K).
+?- L=[a,a,b,X,Y], count(a,L,A),count(b,L,B),
+ write([A,B,X,Y]).
+
+
+
+
+
+
+
+
+
+
+
