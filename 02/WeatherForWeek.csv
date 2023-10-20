@@ -1,0 +1,21 @@
+City,Country,Date,Temperature,Wind Speed,Pressure,Humidity,Precipitation,Probability Precipitation
+Kyiv,Ukraine,13/09/2023,22,3,748,33,0,0
+Kyiv,Ukraine,14/09/2023,25,5,746,49,1.3,50
+Kyiv,Ukraine,15/09/2023,17,6,749,82,0.1,30
+Kyiv,Ukraine,16/09/2023,22,3,755,46,0,20
+Kyiv,Ukraine,17/09/2023,25,2,753,44,0,20
+Lviv,Ukraine,13/09/2023,28,3,733,49,0,0
+Lviv,Ukraine,14/09/2023,21,5,734,79,0,6,50
+Lviv,Ukraine,15/09/2023,18,3,739,68,0,20
+Lviv,Ukraine,16/09/2023,20,5,740,61,0,20
+Lviv,Ukraine,17/09/2023,25,4,737,49,0,20
+Rome,Italy,13/09/2023,31,2,760,42,0,0
+Rome,Italy,14/09/2023,30,3,760,54,0.2,20
+Rome,Italy,15/09/2023,30,2,760,54,0.2,10
+Rome,Italy,16/09/2023,30,2,760,60,0.5,20
+Rome,Italy,17/09/2023,33,2,761,46,0,20
+Warsaw,Poland,13/09/2023,30,3,751,46,0,0
+Warsaw,Poland,14/09/2023,28,4,749,36,0.1,30
+Warsaw,Poland,15/09/2023,20,3,760,58,0,20
+Warsaw,Poland,16/09/2023,22,6,760,42,0,20
+Warsaw,Poland,17/09/2023,25,3,755,54,0,20
