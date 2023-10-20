@@ -1,0 +1,13 @@
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\bin\Debug\netcoreapp3.1\TestC.exe
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\bin\Debug\netcoreapp3.1\TestC.deps.json
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\bin\Debug\netcoreapp3.1\TestC.runtimeconfig.json
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\bin\Debug\netcoreapp3.1\TestC.runtimeconfig.dev.json
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\bin\Debug\netcoreapp3.1\TestC.dll
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\bin\Debug\netcoreapp3.1\TestC.pdb
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\obj\Debug\netcoreapp3.1\TestC.csprojAssemblyReference.cache
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\obj\Debug\netcoreapp3.1\TestC.AssemblyInfoInputs.cache
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\obj\Debug\netcoreapp3.1\TestC.AssemblyInfo.cs
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\obj\Debug\netcoreapp3.1\TestC.csproj.CoreCompileInputs.cache
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\obj\Debug\netcoreapp3.1\TestC.dll
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\obj\Debug\netcoreapp3.1\TestC.pdb
+D:\LNU\Prykladne_programuvannya_movou_Python\Lab7\TestC\TestC\obj\Debug\netcoreapp3.1\TestC.genruntimeconfig.cache

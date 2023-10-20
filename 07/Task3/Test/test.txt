@@ -1,0 +1,4 @@
+Initial: 5 8
+Subproces: 8 13
+Main: 13 21
+Subproces: 21 34
