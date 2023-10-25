@@ -1,0 +1,25 @@
+Увага ! Деякі xml-адреси можуть бути недійсні. Адреси залежать від постачальників даних.
+
+https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange
+
+http://resources.finance.ua/ua/public/currency-cash.xml
+
+http://bank-ua.com/export/currrate.xml
+
+http://news.liga.net/all/rss.xml
+
+https://hnrss.org/newest
+
+https://hnrss.org/frontpage
+
+https://music.i.ua/
+
+https://shoes.ua/
+
+https://www.w3schools.com/xml/simple.xml
+
+https://www.doctorwho.tv/explore/river-song
+
+https://www.elyrics.net/xml/newlyrics.xml - xml-ресурс з музичними новинками
+
+https://1plus1.ua/novyny        - дуже великий

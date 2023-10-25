@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exchange>
+  <currency>
+    <r030>36</r030>
+    <txt>Австралійський долар</txt>
+    <rate>23.1498</rate>
+    <cc>AUD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>124</r030>
+    <txt>Канадський долар</txt>
+    <rate>26.5411</rate>
+    <cc>CAD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>156</r030>
+    <txt>Юань Женьміньбі</txt>
+    <rate>4.9927</rate>
+    <cc>CNY</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>203</r030>
+    <txt>Чеська крона</txt>
+    <rate>1.5641</rate>
+    <cc>CZK</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>208</r030>
+    <txt>Данська крона</txt>
+    <rate>5.174</rate>
+    <cc>DKK</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>344</r030>
+    <txt>Гонконгівський долар</txt>
+    <rate>4.6702</rate>
+    <cc>HKD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>348</r030>
+    <txt>Форинт</txt>
+    <rate>0.100215</rate>
+    <cc>HUF</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>356</r030>
+    <txt>Індійська рупія</txt>
+    <rate>0.43914</rate>
+    <cc>INR</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>360</r030>
+    <txt>Рупія</txt>
+    <rate>0.0023012</rate>
+    <cc>IDR</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>376</r030>
+    <txt>Новий ізраїльський шекель</txt>
+    <rate>8.9874</rate>
+    <cc>ILS</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>392</r030>
+    <txt>Єна</txt>
+    <rate>0.24366</rate>
+    <cc>JPY</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>398</r030>
+    <txt>Теньге</txt>
+    <rate>0.07669</rate>
+    <cc>KZT</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>410</r030>
+    <txt>Вона</txt>
+    <rate>0.027076</rate>
+    <cc>KRW</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>484</r030>
+    <txt>Мексиканське песо</txt>
+    <rate>1.9979</rate>
+    <cc>MXN</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>498</r030>
+    <txt>Молдовський лей</txt>
+    <rate>2.0153</rate>
+    <cc>MDL</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>554</r030>
+    <txt>Новозеландський долар</txt>
+    <rate>21.2539</rate>
+    <cc>NZD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>578</r030>
+    <txt>Норвезька крона</txt>
+    <rate>3.2626</rate>
+    <cc>NOK</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>643</r030>
+    <txt>Російський рубль</txt>
+    <rate>0.39098</rate>
+    <cc>RUB</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>702</r030>
+    <txt>Сінгапурський долар</txt>
+    <rate>26.6651</rate>
+    <cc>SGD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>710</r030>
+    <txt>Ренд</txt>
+    <rate>1.9073</rate>
+    <cc>ZAR</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>752</r030>
+    <txt>Шведська крона</txt>
+    <rate>3.28</rate>
+    <cc>SEK</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>756</r030>
+    <txt>Швейцарський франк</txt>
+    <rate>40.776</rate>
+    <cc>CHF</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>818</r030>
+    <txt>Єгипетський фунт</txt>
+    <rate>1.1826</rate>
+    <cc>EGP</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>826</r030>
+    <txt>Фунт стерлінгів</txt>
+    <rate>44.2649</rate>
+    <cc>GBP</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>840</r030>
+    <txt>Долар США</txt>
+    <rate>36.5312</rate>
+    <cc>USD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>933</r030>
+    <txt>Білоруський рубль</txt>
+    <rate>13.2783</rate>
+    <cc>BYN</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>944</r030>
+    <txt>Азербайджанський манат</txt>
+    <rate>21.5231</rate>
+    <cc>AZN</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>946</r030>
+    <txt>Румунський лей</txt>
+    <rate>7.7822</rate>
+    <cc>RON</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>949</r030>
+    <txt>Турецька ліра</txt>
+    <rate>1.2987</rate>
+    <cc>TRY</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>960</r030>
+    <txt>СПЗ (спеціальні права запозичення)</txt>
+    <rate>47.9003</rate>
+    <cc>XDR</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>975</r030>
+    <txt>Болгарський лев</txt>
+    <rate>19.7455</rate>
+    <cc>BGN</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>978</r030>
+    <txt>Євро</txt>
+    <rate>38.6171</rate>
+    <cc>EUR</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>985</r030>
+    <txt>Злотий</txt>
+    <rate>8.6148</rate>
+    <cc>PLN</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>12</r030>
+    <txt>Алжирський динар</txt>
+    <rate>0.2665</rate>
+    <cc>DZD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>50</r030>
+    <txt>Така</txt>
+    <rate>0.33244</rate>
+    <cc>BDT</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>51</r030>
+    <txt>Вірменський драм</txt>
+    <rate>0.092955</rate>
+    <cc>AMD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>214</r030>
+    <txt>Домініканське песо</txt>
+    <rate>0.64554</rate>
+    <cc>DOP</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>364</r030>
+    <txt>Іранський ріал</txt>
+    <rate>0.00087068</rate>
+    <cc>IRR</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>368</r030>
+    <txt>Іракський динар</txt>
+    <rate>0.027915</rate>
+    <cc>IQD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>417</r030>
+    <txt>Сом</txt>
+    <rate>0.41223</rate>
+    <cc>KGS</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>422</r030>
+    <txt>Ліванський фунт</txt>
+    <rate>0.002438</rate>
+    <cc>LBP</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>434</r030>
+    <txt>Лівійський динар</txt>
+    <rate>7.4796</rate>
+    <cc>LYD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>458</r030>
+    <txt>Малайзійський ринггіт</txt>
+    <rate>7.7882</rate>
+    <cc>MYR</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>504</r030>
+    <txt>Марокканський дирхам</txt>
+    <rate>3.5441</rate>
+    <cc>MAD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>586</r030>
+    <txt>Пакистанська рупія</txt>
+    <rate>0.12699</rate>
+    <cc>PKR</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>682</r030>
+    <txt>Саудівський ріял</txt>
+    <rate>9.7503</rate>
+    <cc>SAR</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>704</r030>
+    <txt>Донг</txt>
+    <rate>0.0015045</rate>
+    <cc>VND</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>764</r030>
+    <txt>Бат</txt>
+    <rate>1.0015</rate>
+    <cc>THB</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>784</r030>
+    <txt>Дирхам ОАЕ</txt>
+    <rate>9.9558</rate>
+    <cc>AED</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>788</r030>
+    <txt>Туніський динар</txt>
+    <rate>11.546</rate>
+    <cc>TND</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>860</r030>
+    <txt>Узбецький сум</txt>
+    <rate>0.0030036</rate>
+    <cc>UZS</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>901</r030>
+    <txt>Новий тайванський долар</txt>
+    <rate>1.13409</rate>
+    <cc>TWD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>934</r030>
+    <txt>Туркменський новий манат</txt>
+    <rate>10.4482</rate>
+    <cc>TMT</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>941</r030>
+    <txt>Сербський динар</txt>
+    <rate>0.33069</rate>
+    <cc>RSD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>972</r030>
+    <txt>Сомоні</txt>
+    <rate>3.3375</rate>
+    <cc>TJS</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>981</r030>
+    <txt>Ларі</txt>
+    <rate>13.6705</rate>
+    <cc>GEL</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>986</r030>
+    <txt>Бразильський реал</txt>
+    <rate>7.265</rate>
+    <cc>BRL</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>959</r030>
+    <txt>Золото</txt>
+    <rate>72145.47</rate>
+    <cc>XAU</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>961</r030>
+    <txt>Срібло</txt>
+    <rate>833.33</rate>
+    <cc>XAG</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>962</r030>
+    <txt>Платина</txt>
+    <rate>32533.23</rate>
+    <cc>XPT</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+  <currency>
+    <r030>964</r030>
+    <txt>Паладій</txt>
+    <rate>41166.64</rate>
+    <cc>XPD</cc>
+    <exchangedate>26.10.2023</exchangedate>
+</currency>
+</exchange>

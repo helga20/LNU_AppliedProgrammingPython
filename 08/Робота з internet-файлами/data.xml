@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<info>
+<magazine  title="Магазин 'Ваші меблі'" address="вул.Південна,28" >
+    <timetable work="Працюємо шоденно від 9 до 20 години без вихідних"  />
+</magazine>
+<data  list="Меблі для квартир та офісів" >
+    <furniture name="Стіл">
+        <rank> Серія: меблі квартирні </rank>
+        <production>Виробництво: Стрийська меблева фабрика</production>
+        <price>ціна 5670 грн.</price>
+        <service sale="Оплата: перерахунок" delivery="Доставка: магазин,власна"/>
+        <service mounting="монтаж: майстер,власний" guarantee="гарантія: 4 роки"/>
+    </furniture>
+    <furniture name="Стілець">
+        <rank>Серія: меблі офісні</rank>
+        <production>Виробництво: фабрика 'Закарпаття'</production>
+        <price>ціна 950 грн.</price>
+        <service sale="Оплата: перерахунок,готівка" delivery="Доставка: власна"/>
+    </furniture>
+    <furniture name="Диван">
+        <rank>Серія: меблі квартирні</rank>
+        <production>Виробництво: компанія 'Меблі-сервіс'</production>
+        <price>ціна 8400 грн.</price>
+        <service sale="Оплата: перерахунок" delivery="Доставка: магазин,власна"/>
+        <service mounting="монтаж: майстер,власний" guarantee="гарантія: 3 роки"/>
+    </furniture>
+</data>
+</info>

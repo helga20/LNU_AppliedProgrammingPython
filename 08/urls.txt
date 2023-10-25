@@ -1,0 +1,3 @@
+https://uk.wikipedia.org/wiki/Python
+
+https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange
