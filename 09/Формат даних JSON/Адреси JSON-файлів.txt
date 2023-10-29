@@ -1,0 +1,24 @@
+Деякі адреси файлів JSON:  (залежать від поточного стану сервера)
+[ Окремі адреси можуть бути недійсні чи змінені ]
+
+https://www.cryptingup.com/api/markets
+
+https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5
+
+http://davidpots.com/jakeworry/017%20JSON%20Grouping,%20part%203/data.json
+
+https://s7.addthis.com/l10n/client.uk.min.json
+
+https://jsonplaceholder.typicode.com/users
+
+https://jsonplaceholder.typicode.com/photos
+
+https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=12&api_key=DEMO_KEY
+
+https://filesamples.com/samples/code/json/sample4.json
+
+https://raw.githubusercontent.com/LearnWebCode/json-example/master/animals-1.json
+
+https://dummyjson.com/products
+
+https://restcountries.com/v2/all?fields=name,capital,currencies

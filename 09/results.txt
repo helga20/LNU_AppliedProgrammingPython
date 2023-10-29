@@ -1,0 +1,90 @@
+JSON URL: https://raw.githubusercontent.com/LearnWebCode/json-example/master/animals-1.json
+
+
+-----------------------------------------  Result of task 1 and 2 -----------------------------------------
+
+Loading...
+Get file from server
+File was saved
+File closed
+
+Print file to console:
+[{'foods': {'dislikes': ['ham', 'zucchini'], 'likes': ['tuna', 'catnip']},
+  'name': 'Meowsy',
+  'species': 'cat'},
+ {'foods': {'dislikes': ['tuna'], 'likes': ['bones', 'carrots']},
+  'name': 'Barky',
+  'species': 'dog'},
+ {'foods': {'dislikes': ['cookies'], 'likes': ['mice']},
+  'name': 'Purrpaws',
+  'species': 'cat'}]
+
+Printing finished
+Openning file...
+
+
+
+----------------------------------------- Result of task 3 -----------------------------------------
+
+Reading file...
+Main info:
+
+Amount of animals: 3
+
+Types of animal objects: ['dict', 'dict', 'dict']:
+
+Type of 'foods.likes': list
+
+Value of 'foods.likes':
+['tuna', 'catnip']
+
+Subobjects of the first animal:
+[('name', 'Meowsy'), ('species', 'cat'), ('foods', {'likes': ['tuna', 'catnip'], 'dislikes': ['ham', 'zucchini']})]
+
+All objects of animals:
+
+["{'name': 'Meowsy', 'species': 'cat', 'foods': {'likes': ['tuna', 'catnip'], 'dislikes': ['ham', 'zucchini']}}", "{'name': 'Barky', 'species': 'dog', 'foods': {'likes': ['bones', 'carrots'], 'dislikes': ['tuna']}}", "{'name': 'Purrpaws', 'species': 'cat', 'foods': {'likes': ['mice'], 'dislikes': ['cookies']}}"]
+
+
+
+----------------------------------------- Result of task 4 -----------------------------------------
+Functions at task 4:
+1. Output information about each animal, including their names, species, and food likes and dislikes.
+2. Search and display all values by the given key ("name").
+3. Search and display all objects (animals) with a certain key and value ("species" with the value "cat").
+
+
+Reading file...
+
+Animal:
+name: Meowsy
+species: cat
+foods:
+        likes: ['tuna', 'catnip']
+        dislikes: ['ham', 'zucchini']
+
+Animal:
+name: Barky
+species: dog
+foods:
+        likes: ['bones', 'carrots']
+        dislikes: ['tuna']
+
+Animal:
+name: Purrpaws
+species: cat
+foods:
+        likes: ['mice']
+        dislikes: ['cookies']
+Find all values by key: name
+        Meowsy
+        Barky
+        Purrpaws
+
+Print species with value cat
+{'foods': {'dislikes': ['ham', 'zucchini'], 'likes': ['tuna', 'catnip']},
+ 'name': 'Meowsy',
+ 'species': 'cat'}
+{'foods': {'dislikes': ['cookies'], 'likes': ['mice']},
+ 'name': 'Purrpaws',
+ 'species': 'cat'}
