@@ -1,0 +1,134 @@
+Function to gather data from all .json files started
+All data files have same structure:
+Main info:
+Type of entire document: dict
+Document has: 13 elements
+Type of every element: ['dict', 'list', 'str', 'dict', 'int', 'dict', 'dict', 'int', 'dict', 'int', 'int', 'str', 'int']:
+Type of 'main' element: dict
+Value of 'main':
+{'temp': 271.04, 'feels_like': 264.9, 'temp_min': 270.93, 'temp_max': 271.15, 'pressure': 1024, 'humidity': 79}
+Subelements of 'main':
+('temp', 271.04)
+('feels_like', 264.9)
+('temp_min', 270.93)
+('temp_max', 271.15)
+('pressure', 1024)
+('humidity', 79)
+
+All data gathered
+First data entry printed for example:
+{
+    "01-12-2020": {
+        "coord": {
+            "lon": 24.02,
+            "lat": 49.84
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 271.04,
+            "feels_like": 264.9,
+            "temp_min": 270.93,
+            "temp_max": 271.15,
+            "pressure": 1024,
+            "humidity": 79
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 5,
+            "deg": 140
+        },
+        "clouds": {
+            "all": 0
+        },
+        "dt": 1606833462,
+        "sys": {
+            "type": 1,
+            "id": 8909,
+            "country": "UA",
+            "sunrise": 1606802433,
+            "sunset": 1606832758
+        },
+        "timezone": 7200,
+        "id": 702550,
+        "name": "Lviv",
+        "cod": 200
+    }
+}
+
+Print value by key: temp_max:
+Value of key: temp_max is 271.15 on 01-12-2020
+Value of key: temp_max is 272.15 on 02-12-2020
+Value of key: temp_max is 273.71 on 27-11-2020
+Value of key: temp_max is 272.15 on 28-11-2020
+Value of key: temp_max is 272.15 on 29-11-2020
+Value of key: temp_max is 271.15 on 30-11-2020
+
+Print max value by key: temp:
+Max value of key: temp is 273.42 on 27-11-2020
+
+Print average value by key: humidity:
+Avg value of key: humidity is 91.5
+
+Print dates with given value by key: main:
+Value of key: main is Clouds on 02-12-2020
+Value of key: main is Clouds on 27-11-2020
+Value of key: main is Clouds on 28-11-2020
+Value of key: main is Clouds on 29-11-2020
+
+Print dates with value bigger then given by key: humidity:
+Value of key: humidity is 100 and is more than 98 on 27-11-2020
+Value of key: humidity is 100 and is more than 98 on 28-11-2020
+
+Subproces result
+Letter - a	amount - 75
+Letter - b	amount - 9
+Letter - c	amount - 18
+Letter - d	amount - 42
+Letter - e	amount - 131
+Letter - f	amount - 27
+Letter - g	amount - 9
+Letter - h	amount - 18
+Letter - i	amount - 94
+Letter - j	amount - 1
+Letter - k	amount - 23
+Letter - l	amount - 52
+Letter - m	amount - 63
+Letter - n	amount - 68
+Letter - o	amount - 56
+Letter - p	amount - 29
+Letter - r	amount - 36
+Letter - s	amount - 58
+Letter - t	amount - 86
+Letter - u	amount - 45
+Letter - v	amount - 16
+Letter - w	amount - 4
+Letter - x	amount - 13
+Letter - y	amount - 42
+Letter - z	amount - 1
+Letter - 0	amount - 67
+Letter - 1	amount - 57
+Letter - 2	amount - 77
+Letter - 3	amount - 12
+Letter - 4	amount - 16
+Letter - 5	amount - 13
+Letter - 6	amount - 10
+Letter - 7	amount - 27
+Letter - 8	amount - 12
+Letter - 9	amount - 17
+Letter - {	amount - 9
+Letter - }	amount - 9
+Letter - :	amount - 74
+Letter - .	amount - 23
+Letter - ,	amount - 49
+Letter - (	amount - 6
+Letter - )	amount - 6
+Letter - -	amount - 28
+

@@ -1,0 +1,19 @@
+Weather API URL: http://api.openweathermap.org/data/2.5/weather?q=Lviv&appid=1952efb4a7da640d955fd67682858a7f
+
+Team:
+Yaryna Paslavska (AMI-41) - Python tasks
+Oleksandr Zelinskyi (AMI-42) - Windows form application and documentation
+Denys Doskach (AMI-41) - Code cleaning and refactoring
+
+Set up:
+1) If you want to load weather for today from API you need to run weather_loader.py file.
+2) If you want to run task then run weather_statictics.py (for correct subprocess work you need to unarchive Releas to same folder as weather_statictics.py)
+
+Tasks:
+1) Analyze json file structure and show data example
+2) Print value by specific key
+3) Print max value by key
+4) Print average value by key
+5) Print dates with given value by key
+6) Print dates with value bigger then given by key
+7) (Subprocess) Calculate amount of each character in the results file

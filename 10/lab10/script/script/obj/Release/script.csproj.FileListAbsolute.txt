@@ -1,0 +1,21 @@
+D:\LNU\Прикладне програмування мовою Python\Lab10\last\script\script\bin\Release\script.exe.config
+D:\LNU\Прикладне програмування мовою Python\Lab10\last\script\script\bin\Release\script.exe
+D:\LNU\Прикладне програмування мовою Python\Lab10\last\script\script\bin\Release\script.pdb
+D:\LNU\Прикладне програмування мовою Python\Lab10\last\script\script\obj\Release\script.csprojAssemblyReference.cache
+D:\LNU\Прикладне програмування мовою Python\Lab10\last\script\script\obj\Release\script.Form1.resources
+D:\LNU\Прикладне програмування мовою Python\Lab10\last\script\script\obj\Release\script.Properties.Resources.resources
+D:\LNU\Прикладне програмування мовою Python\Lab10\last\script\script\obj\Release\script.csproj.GenerateResource.cache
+D:\LNU\Прикладне програмування мовою Python\Lab10\last\script\script\obj\Release\script.csproj.CoreCompileInputs.cache
+D:\LNU\Прикладне програмування мовою Python\Lab10\last\script\script\obj\Release\script.exe
+D:\LNU\Прикладне програмування мовою Python\Lab10\last\script\script\obj\Release\script.pdb
+D:\Навчання\7 семестр\Прикладне програмування мовою Python\Практичні\10\lab10\script\script\bin\Release\script.exe.config
+D:\Навчання\7 семестр\Прикладне програмування мовою Python\Практичні\10\lab10\script\script\bin\Release\script.exe
+D:\Навчання\7 семестр\Прикладне програмування мовою Python\Практичні\10\lab10\script\script\bin\Release\script.pdb
+D:\Навчання\7 семестр\Прикладне програмування мовою Python\Практичні\10\lab10\script\script\obj\Release\script.csproj.AssemblyReference.cache
+D:\Навчання\7 семестр\Прикладне програмування мовою Python\Практичні\10\lab10\script\script\obj\Release\script.csproj.SuggestedBindingRedirects.cache
+D:\Навчання\7 семестр\Прикладне програмування мовою Python\Практичні\10\lab10\script\script\obj\Release\script.Form1.resources
+D:\Навчання\7 семестр\Прикладне програмування мовою Python\Практичні\10\lab10\script\script\obj\Release\script.Properties.Resources.resources
+D:\Навчання\7 семестр\Прикладне програмування мовою Python\Практичні\10\lab10\script\script\obj\Release\script.csproj.GenerateResource.cache
+D:\Навчання\7 семестр\Прикладне програмування мовою Python\Практичні\10\lab10\script\script\obj\Release\script.csproj.CoreCompileInputs.cache
+D:\Навчання\7 семестр\Прикладне програмування мовою Python\Практичні\10\lab10\script\script\obj\Release\script.exe
+D:\Навчання\7 семестр\Прикладне програмування мовою Python\Практичні\10\lab10\script\script\obj\Release\script.pdb
